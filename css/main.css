@@ -1688,6 +1688,7 @@ pre .javascript .function {
   -webkit-animation: roll 0.1s infinite linear;
   -moz-animation: roll 0.1s infinite linear;
 }
+*
 #alipay:hover p {
   animation: roll 0.1s infinite linear;
   -webkit-animation: roll 0.1s infinite linear;
@@ -1943,7 +1944,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c1c16f;
+  background: #45fcff;
 }
 .links-of-blogroll {
   font-size: 13px;
