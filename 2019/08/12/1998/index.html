@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="迷.">
 <meta property="og:description" content="Welcome to bobo!欢迎您的到来！相关模块还在建设中… 也不知整点啥 反正就是瞎整hhh Relevant modules are still under constructionI don’t know what the whole point is, anyway, just a few blindness.  记录2019年8月12日构建第一个网站参考文章知乎GitHub+Hex">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-01-03T12:22:57.468Z">
+<meta property="og:updated_time" content="2020-03-18T08:06:50.521Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello Myfriend!">
 <meta name="twitter:description" content="Welcome to bobo!欢迎您的到来！相关模块还在建设中… 也不知整点啥 反正就是瞎整hhh Relevant modules are still under constructionI don’t know what the whole point is, anyway, just a few blindness.  记录2019年8月12日构建第一个网站参考文章知乎GitHub+Hex">
@@ -282,8 +282,40 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/新的开始/" itemprop="url" rel="index">
+                    <span itemprop="name">新的开始</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/08/12/1998/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/08/12/1998/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -366,6 +398,22 @@
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/03/17/2020/" rel="prev" title=" 随想  ">
+                 随想   <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
 
       
       
@@ -390,6 +438,9 @@
 
           
 
+  
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -440,12 +491,21 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
             
 
             
@@ -726,6 +786,28 @@ setInterval("createtime()",250);
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'hcs46QXddoawHVKlReT4BaOO-gzGzoHsz',
+        appKey: '1xiOJSzihkSluVtKUAV1OSeh',
+        placeholder: 'Just go go 讲两句',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
